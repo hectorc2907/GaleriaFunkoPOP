@@ -20,23 +20,38 @@ header {
   justify-content: space-evenly;
 }
 .container img{
-  padding: 25px 25px;
+  padding: 10px 10px;
   max-width: 25%;
 }
 @media screen and (max-width: 575px) {
-  
+  .container img{
+    padding: 10px 25px;
+    max-width: 100%;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  
+  .container img{
+    padding: 10px 25px;
+    max-width: 100%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  
+  .container img{
+    padding: 10px 10px 10px 10px;
+    max-width: 50%;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  
+  .container img{
+    padding: 10px 10px;
+    max-width: 33%;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-  
+  .container img{
+    padding: 10px 10px;
+    max-width: 25%;
+  }
 }
 @media screen and (min-width: 1400px) {
   
