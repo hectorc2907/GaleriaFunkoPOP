@@ -11,48 +11,55 @@ header {
   text-align: center;
   color: white;
 }
-.mainGallery{
+.mainGallery {
   padding: 20px 0px;
 }
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.container img{
-  padding: 10px 10px;
+.containerImg{
+  padding: 20px 20px;
   max-width: 25%;
 }
+.containerImg img {
+  max-width: 100%;
+  border-radius: 50px;
+  -webkit-box-shadow: 15px 15px 15px 5px #c0c0c0;
+  box-shadow: 15px 15px 15px 5px #c0c0c0;
+  transition: filter 0.3;
+}
+.containerImg img:hover{
+  filter: brightness(130%);
+}
 @media screen and (max-width: 575px) {
-  .container img{
-    padding: 10px 25px;
+  .containerImg{
+    padding: 20px 20px;
     max-width: 100%;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .container img{
-    padding: 10px 25px;
+  .containerImg{
+    padding: 20px 20px;
     max-width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .container img{
-    padding: 10px 10px 10px 10px;
+  .containerImg{
+    padding: 20px 20px;
     max-width: 50%;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .container img{
-    padding: 10px 10px;
+  .containerImg{
+    padding: 20px 20px;
     max-width: 33%;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-  .container img{
-    padding: 10px 10px;
+  .containerImg{
+    padding: 20px 20px;
     max-width: 25%;
   }
-}
-@media screen and (min-width: 1400px) {
-  
 }
