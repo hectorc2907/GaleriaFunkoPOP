@@ -30,7 +30,7 @@ El objetivo del proyecto como bien se menciono era la practica de las etiquetas 
 ## Demostración
 
 Enlace:
-[Galeria FunkPop]()  
+[Galeria FunkPop](https://galeriafunkopophac.netlify.app/)  
 Dispositivos Pequeños  
 ![Dispositivos Pequeños](https://github.com/hectorc2907/GaleriaFunkoPOP/blob/readme/img/capturas/Small.PNG)  
 Dispositvos Medianos  
