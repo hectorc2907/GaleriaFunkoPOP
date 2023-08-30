@@ -1,4 +1,4 @@
-# Galeria FunkPop
+# Galeria FunkoPop
 
 Primer pagina creada con HTML5 y CSS3, en el cual se practica sus etiquetas junto con el modelo de estilos con flexbox, uso de mediaqueries con la finalidad de manejar un modelo responsive.
 
@@ -30,7 +30,7 @@ El objetivo del proyecto como bien se menciono era la practica de las etiquetas 
 ## Demostración
 
 Enlace:
-[Galeria FunkPop](https://galeriafunkopophac.netlify.app/)  
+[Galeria FunkoPop](https://galeriafunkopophac.netlify.app/)  
 Dispositivos Pequeños  
 ![Dispositivos Pequeños](https://github.com/hectorc2907/GaleriaFunkoPOP/blob/readme/img/capturas/Small.PNG)  
 Dispositvos Medianos  
